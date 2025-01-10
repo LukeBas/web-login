@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'delvon';
+    src: url('/fonts/delvon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.antonio-font {
+              font-family: "Antonio", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 100;
+              font-style: normal;
+          }
+
+#sessionInfo li{
+    margin-right: 30px;
+}
+
+#logout{
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+#logout:hover{
+    filter: drop-shadow(0 0 2em rgb(255, 255, 255));
+}
+
+#logout.react:hover{
+    filter: drop-shadow(0 0 2em rgb(255, 255, 255));
+}
