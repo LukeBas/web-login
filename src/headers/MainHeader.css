@@ -12,6 +12,11 @@
               font-style: normal;
           }
 
+#session{
+    display: inline-flex;
+    margin-right: 0;
+}
+
 #sessionInfo li{
     margin-right: 30px;
 }
@@ -19,6 +24,7 @@
 #logout{
     will-change: filter;
     transition: filter 300ms;
+    margin-top: 5%;
 }
 
 #logout:hover{
