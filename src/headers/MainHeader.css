@@ -13,8 +13,10 @@
           }
 
 #session{
-    display: inline-flex;
+    display: flex;
     margin-right: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 #sessionInfo li{
@@ -24,7 +26,7 @@
 #logout{
     will-change: filter;
     transition: filter 300ms;
-    margin-top: 5%;
+
 }
 
 #logout:hover{
@@ -33,4 +35,13 @@
 
 #logout.react:hover{
     filter: drop-shadow(0 0 2em rgb(255, 255, 255));
+}
+
+#sessionInfo ul li{
+    margin: 0;
+}
+
+#sessionInfo ul li img{
+    margin-right: 2px;
+    margin-left: 20px;
 }
