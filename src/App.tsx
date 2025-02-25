@@ -4,6 +4,7 @@ import {useState} from "react";
 import './App.css'
 import {LoginBody} from "./bodies/LoginBody.tsx";
 import {MenuHeader} from "./headers/MenuHeader.tsx";
+import {MainBody} from "./bodies/MainBody.tsx";
 
 function App() {
     const [login, setLogin] = useState(false);
@@ -22,6 +23,7 @@ function App() {
             <>
                 <MainHeader props={session} changeLogin={changeLogin}/>
                 <MenuHeader/>
+                <MainBody/>
             </>
         }
         {!login && <LoginBody changeLogin={changeLogin}/>}
